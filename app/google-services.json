@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "7725644699",
+    "firebase_url": "https://cricscore-d06d3.firebaseio.com",
+    "project_id": "cricscore-d06d3",
+    "storage_bucket": "cricscore-d06d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7725644699:android:c96027aaeb3076468cff3e",
+        "android_client_info": {
+          "package_name": "com.totem.cricscore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7725644699-6446ksm2ndtk6olqn8o5mqad930b1g59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.totem.cricscore",
+            "certificate_hash": "40258c7f9f734d81404fed921acbabd92ac2c693"
+          }
+        },
+        {
+          "client_id": "7725644699-27p08j34t5vt18c1ad4cjb8ug4vqdan6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV4MFsslvP4tCQOqw8Hu7qsMCuaGmHId4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7725644699-27p08j34t5vt18c1ad4cjb8ug4vqdan6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
