@@ -33,10 +33,12 @@ public class DashboardScreen extends AppCompatActivity implements View.OnClickLi
         mainGrid = findViewById(R.id.mainGrid);
         teamScreen = findViewById(R.id.team_screen);
         playerScreen = findViewById(R.id.player_screen);
+
         createLayout.setOnClickListener(this);
         openLayout.setOnClickListener(this);
         resultLayout.setOnClickListener(this);
-
+        teamScreen.setOnClickListener(this);
+        playerScreen.setOnClickListener(this);
 
 
     }
