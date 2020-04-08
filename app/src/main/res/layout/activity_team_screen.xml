@@ -24,10 +24,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ListView
+
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/team_list" />
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/teamRecycler"
+            android:background="@color/colorAccent" />
     </LinearLayout>
 
 
