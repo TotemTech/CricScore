@@ -18,7 +18,7 @@ public class TeamScreenAdapter extends RecyclerView.Adapter<TeamScreenAdapter.My
     private List<Team> teamList;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView teamName, year, genre;
+        public TextView teamName;
 
         public MyViewHolder(View view) {
             super(view);

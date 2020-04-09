@@ -19,11 +19,12 @@ import com.totem.cricscore.Other.TeamScreenAdapter;
 import com.totem.cricscore.model.Team;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TeamScreen extends AppCompatActivity {
 
     private FloatingActionButton fabButton;
-    final ArrayList<Team> teamList = new ArrayList<Team>();
+    List<Team> teamList = new ArrayList<Team>();
     private TextView teamName;
     private RecyclerView recyclerView;
     private TeamScreenAdapter teamAdapter;
