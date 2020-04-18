@@ -3,10 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="13dp"
+        android:src="@drawable/cricket"
+        android:contentDescription="Team " />
     <TextView
         android:id="@+id/teamName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="13dp"
-        android:text="TextView" />
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:text="@string/TextView" />
 </RelativeLayout>

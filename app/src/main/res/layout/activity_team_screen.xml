@@ -22,15 +22,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/teamLinearLayout">
 
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
             android:scrollbars="vertical"
-            android:id="@+id/teamRecycler"
-            android:background="@color/colorAccent" />
+            android:id="@+id/teamRecycler" />
     </LinearLayout>
 
 

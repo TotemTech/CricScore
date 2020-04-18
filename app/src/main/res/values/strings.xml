@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CricScore</string>
+    <string name="TextView">TextView</string>
 </resources>

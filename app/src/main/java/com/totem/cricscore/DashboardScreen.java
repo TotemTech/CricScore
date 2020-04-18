@@ -21,7 +21,7 @@ public class DashboardScreen extends AppCompatActivity implements View.OnClickLi
     private GridLayout mainGrid;
     private LinearLayout teamScreen;
     private LinearLayout playerScreen;
-
+    private Bundle bun;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +40,8 @@ public class DashboardScreen extends AppCompatActivity implements View.OnClickLi
         teamScreen.setOnClickListener(this);
         playerScreen.setOnClickListener(this);
 
+        bun = getIntent().getExtras();
+
 
     }
 
@@ -49,19 +51,34 @@ public class DashboardScreen extends AppCompatActivity implements View.OnClickLi
         switch (v.getId()) {
 
             case R.id.create_layout:
-                startActivity(new Intent(this, CreateMatchScreen.class));
+                Intent create = new Intent(this, CreateMatchScreen.class);
+                create.putExtras(bun);
+                startActivity(create);
+                // startActivity(new Intent(this, CreateMatchScreen.class));
                 break;
             case R.id.open_layout:
-                startActivity(new Intent(this, OpenMatchScreen.class));
+                Intent open = new Intent(this, OpenMatchScreen.class);
+                open.putExtras(bun);
+                startActivity(open);
+                // startActivity(new Intent(this, OpenMatchScreen.class));
                 break;
             case R.id.result_layout:
-                startActivity(new Intent(this, ResultMatchScreen.class));
+                Intent result = new Intent(this, ResultMatchScreen.class);
+                result.putExtras(bun);
+                startActivity(result);
+                // startActivity(new Intent(this, ResultMatchScreen.class));
                 break;
             case R.id.team_screen:
-                startActivity(new Intent(this, TeamScreen.class));
+                Intent team = new Intent(this, TeamScreen.class);
+                team.putExtras(bun);
+                startActivity(team);
+                // startActivity(new Intent(this, TeamScreen.class));
                 break;
             case R.id.player_screen:
-                startActivity(new Intent(this, PlayerScreen.class));
+                Intent player = new Intent(this, PlayerScreen.class);
+                player.putExtras(bun);
+                startActivity(player);
+                //startActivity(new Intent(this, PlayerScreen.class));
                 break;
         }
 
